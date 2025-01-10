@@ -1,0 +1,39 @@
+{
+	"id": "affc0808-9944-42a3-8572-dd6054878676",
+	"name": "99tech-interview",
+	"values": [
+		{
+			"key": "accessToken",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "refreshToken",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "host",
+			"value": "http://localhost:3000/api",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "createdPostId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "aaa",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-01-10T13:29:35.991Z",
+	"_postman_exported_using": "Postman/11.23.3"
+}
