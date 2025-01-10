@@ -23,12 +23,12 @@
     "typescript": "^5.7.3"
   },
   "scripts": {
-    "build": "tsc --outDir build",
+    "build": "npx tsc --outDir build",
     "dev": "nodemon src/index.ts",
     "start": "node build/index.js",
-    "setup:db": "prisma migrate dev",
     "type-check": "tsc --noEmit",
     "prisma:migrate": "npx prisma migrate dev --name init",
+    "prisma:setup": "npx prisma migrate dev",
     "prisma:generate": "npx prisma generate",
     "prisma:seed": "ts-node prisma/seed/index.ts"
   },

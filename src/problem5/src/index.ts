@@ -18,6 +18,15 @@ const swaggerOptions: swaggerJSDoc.Options = {
       version: "1.0.0",
       description: "A simple Crude API",
     },
+    components: {
+      securitySchemes: {
+        bearerAuth: {
+          type: "http",
+          scheme: "bearer",
+          bearerFormat: "JWT",
+        },
+      },
+    },
     servers: [
       {
         url: `http://localhost:${port}`,
